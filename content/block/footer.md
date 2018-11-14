@@ -1,1 +1,1 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+<p class="center">Sandra  &copy; 2018</p>
