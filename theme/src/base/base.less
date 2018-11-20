@@ -1,0 +1,30 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+// @bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #000;
+@fontFamilyBody: 'Playfair Display', serif;
+
+html {
+    overflow-y: scroll;
+    // background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font-family: @fontFamilyBody;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.inner-wrap {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
