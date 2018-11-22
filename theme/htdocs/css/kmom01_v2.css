@@ -48,6 +48,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+img {
+  max-width: 100%;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -61,19 +64,11 @@ body {
  */
 /**
  * General layout
- */
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
+//  */
 /* HEADER */
 .region-header-col-1 {
   float: left;
-  margin-right: 40px;
+  padding: 1em;
 }
 .region-header-col-1 a {
   text-transform: uppercase;
@@ -91,10 +86,7 @@ body {
 .region-header-col-2 li {
   text-align: center;
   text-transform: uppercase;
-  float: left;
-  display: inline;
-  font-size: 30px;
-  padding: 8px;
+  font-size: 25px;
 }
 /* MAIN */
 .outer-wrap-main {
@@ -205,6 +197,13 @@ body {
 .region-main.has-sidebar-right .article {
   width: 70%;
 }
+.has-sidebar-left.has-sidebar-right,
+.has-sidebar-right.has-sidebar-left {
+  width: 29%;
+  float: left;
+  margin: 20px;
+  background-color: #e6e9ef;
+}
 /* Byline */
 .byline {
   border-top: 1px solid #000;
@@ -255,6 +254,46 @@ body {
  */
 @media screen and (max-width: 1500px) {
   .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar
+ */
+@media screen and (max-width: 1350px) {
+  .rm-desktop a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .rm-desktop a {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 10%;
+  }
+  .region-header-col-2 {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .region-header-col-2 li {
+    font-size: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .rm-desktop a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .rm-desktop {
     display: none;
   }
 }
