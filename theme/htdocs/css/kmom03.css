@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom02.
+ * Stylesheet for design kmom03.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom03 where we use LESS.
  */
 /**
  * Normalize and reset the style.
@@ -4570,9 +4570,6 @@ body {
   background-color: #fff;
   font-family: 'Playfair Display', serif;
 }
-img {
-  max-width: 100%;
-}
 /**
  * Import the vertical grid.
  */
@@ -4616,7 +4613,6 @@ img {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
-  background-color: #d0d9e8;
   margin-bottom: 12px;
 }
 .row::after {
@@ -4624,7 +4620,38 @@ img {
   display: block;
   clear: both;
 }
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+.vgrid .inner-wrap {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 1100px) {
+  .vgrid .inner-wrap {
+    background-size: 1100px auto;
+  }
+}
+.vgrid .inner-wrap.inner-wrap-header {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 100%) {
+  .vgrid .inner-wrap.inner-wrap-header {
+    background-size: 100% auto;
+  }
+}
 /* HEADER */
+.inner-wrap-header {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+.inner-wrap-header .row {
+  max-width: 100%;
+}
 .region-header-col-1 a {
   text-transform: uppercase;
   text-decoration: none;
@@ -4729,16 +4756,13 @@ img {
 }
 /* Byline */
 .byline {
-  overflow: auto;
   font-style: italic;
   text-align: center;
-  clear: both;
 }
 /* Footer */
 .outer-wrap-footer {
   background-color: #424344;
   color: #fff;
-  clear: both;
 }
 .footer-column {
   display: inline;
@@ -4753,7 +4777,6 @@ img {
 }
 .center {
   text-align: center;
-  clear: both;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer

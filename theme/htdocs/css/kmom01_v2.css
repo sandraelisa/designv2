@@ -40,9 +40,6 @@ body {
   background-color: #fff;
   font-family: 'Playfair Display', serif;
 }
-img {
-  max-width: 100%;
-}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
