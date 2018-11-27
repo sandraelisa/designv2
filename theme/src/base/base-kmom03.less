@@ -4,7 +4,7 @@
 // @bgColorHtml: #424242;
 @bgColorBody: #fff;
 @colorBody: #000;
-@fontFamilyBody: serif;
+//@fontFamilyBody: serif;
 
 // 'Playfair Display',
 
@@ -18,9 +18,14 @@ body {
     padding: 0;
     color: @colorBody;
     background-color: @bgColorBody;
-    font: 100.01%/1 @fontFamilyBody;
+    //font: 100.01%/1 @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
 }
 
+//responsiv image
 img {
     max-width: 100%;
 }
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

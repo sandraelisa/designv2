@@ -38,7 +38,10 @@ body {
   padding: 0;
   color: #000;
   background-color: #fff;
-  font-family: 'Playfair Display', serif;
+  font: 100.01%/1 serif;
+}
+img {
+  max-width: 100%;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
