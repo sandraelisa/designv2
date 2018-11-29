@@ -283,7 +283,6 @@ img {
 }
 @media screen and (max-width: 900px) {
   .region-header-col-2 li {
-    font-size: 20px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -292,7 +291,7 @@ img {
     padding-right: 0;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .rm-desktop {
     display: none;
   }

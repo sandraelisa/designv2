@@ -24,6 +24,8 @@ Såhär i efterhand önskar jag att dygnet hade haft några fler timmar. Däremo
 
 Jag hade en hobby tidigare där jag kunde måla mina naglar i timmar (låter konstigare än vad det var, eller?). Jag gjorde allt möjligt från att måla blommor till marmoreringar, för att sedan ta bort det några dagar senare. Så min förhoppning är att jag kommer kunna använda lite av min kreativa sida även om kursen heter teknisk webbdesign. Oavsett så är det roligt att skapa!
 
+
+
 *Exempel på lite nagelkonst av mig*
 [FIGURE src="image/n1.JPG?widht=190&height=190" class="img-left"]
 [FIGURE src="image/n2.JPG?widht=190&height=190" class="img-left"]
