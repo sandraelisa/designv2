@@ -83,6 +83,30 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Mitt första inlägg",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Första inlägget",
+                    ],
+                    [
+                        "text" => "Andra inlägget",
+                        "url" => "blogg/mitt-andra-inlagg",
+                        "title" => "Andra inlägget",
+                    ],
+                    [
+                        "text" => "Tredje inlägget",
+                        "url" => "blogg/mitt-tredje-inlagg",
+                        "title" => "Tredje inlägget",
+                    ],
+                ],
+            ],
+        ],
+        [
             "text" => "Test",
             "url" => "test",
             "title" => "Testar markdown.",

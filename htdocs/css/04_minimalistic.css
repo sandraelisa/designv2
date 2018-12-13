@@ -4613,9 +4613,6 @@ body {
   background-color: #F3F1E8;
   font: 16px/1.5 'Titillium Web', sans-serif;
 }
-img {
-  max-width: 100%;
-}
 h1,
 h2,
 h3,
@@ -5110,6 +5107,9 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.region-flash img {
+  max-width: 100%;
+}
 /* MAIN */
 .region-main {
   display: inline;
@@ -5299,6 +5299,9 @@ hr::after {
   color: black;
 }
 /* Byline */
+.article {
+  overflow: auto;
+}
 .byline {
   border-top: 1px solid #7F776B;
   border-bottom: 1px solid #7F776B;
