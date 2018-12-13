@@ -42,7 +42,7 @@
  * Base style to affect HTML elements on a general scale.
  */
 // @import "base/base.less";
-@import "base/base-kmom03.less";
+@import "base/base-kmom05.less";
 
 /**
  * Import the vertical grid.
@@ -87,6 +87,12 @@ figure.figure-codepen {
     #desinax-figure.codepen();
 }
 
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
 /**
  * My own settings, not currently in their own module.
  */
@@ -103,4 +109,13 @@ figure.figure-codepen {
 
 .meta-footer {
     clear: both;
+}
+
+.blog-post h2 {
+    clear: both;
+}
+
+.blog-list-item a {
+    text-decoration: none;
+    color: black;
 }

@@ -12,7 +12,7 @@ Nu är det snart jul och vad passar då bättre än att ta lite fina julbilder. 
 
 <!--more-->
 
-[FIGURE src="image/jul.jpg?h=300" class="right" caption="En julig bild"]
+[FIGURE src="image/jul.jpg?h=300" class="right w33" caption="En julig bild"]
 
 Bilen visar en mindre del av min julgran av typen plast och står i mitt vardagsrum. Eftersom en plastgran kan se rätt så perfekt ut (inga utstickande grenar, här inte) så har jag valt att ta bilden snett ovanifrån för att få till en lite mer estetiskt tilltalande bild.
 
@@ -33,10 +33,3 @@ Anledningen till varför jag tog just en bild på vår julgran är för att den 
 Här kommer sista bilden jag tänkte visa idag.
 
 [FIGURE src="image/jul.jpg?w=600&h=200&crop-to-fit&r=180&f1=pixelate,5,5" caption="Bilden om man snurrar runt den och gör den pixlad"]
-
-
-
-
-<!-- [FIGURE src="image/kaffe.jpg?width=250" class="img-left" caption="Bild på ett hjärta i min kaffemugg"] -->
-
-<!-- [FIGURE src="image/kabbe.jpg?w=800&crop=400,300,600,160&h=400&cf&sharpen" caption="Att beskära en bild och fokusera på olika delar i bilden kan ge bilden olika fokus och skapa intresse."] -->

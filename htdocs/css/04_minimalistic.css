@@ -4613,6 +4613,9 @@ body {
   background-color: #F3F1E8;
   font: 16px/1.5 'Titillium Web', sans-serif;
 }
+responsiv image img {
+  max-width: 100%;
+}
 h1,
 h2,
 h3,
