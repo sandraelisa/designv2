@@ -1,0 +1,145 @@
+/*!
+ * Stylesheet for kmom06-designprinciper.
+ *
+ */
+
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+// @import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+// @import "base/base.less";
+@import "base/base-kmom05.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+// @import "layout/vgrid.less";
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/responsive.less";
+@import "layout/regions.less";
+@import "layout/principles.less";
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+@bgColorBody: #2B3D47;
+// @bgColorBody: #1A344A;
+@colorBody: #B9B6C2;
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Titillium+Web');
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:400,600,700');
+
+
+@fontFamilyHeadings: 'Slabo 27px', serif;
+@fontFamilyBody: 'Titillium Web', sans-serif;
+
+.meta-footer {
+    clear: both;
+}
+
+.blog-post h2 {
+    clear: both;
+}
+
+.blog-list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.inner-wrap-main {
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #303030, rgba(0, 0, 0, 0)) 1 100%;
+    padding: 0 50px 0 50px;
+}
+
+.wrap-sidebar {
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.region-sidebar-right H4,
+.region-sidebar-left H4 {
+    text-decoration: none;
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+    text-decoration: none;
+    background-color: #314652;
+    padding: 0 10px 0 10px;
+}
+
+.article a,
+.region-sidebar-right a {
+    color: #808080;
+}
