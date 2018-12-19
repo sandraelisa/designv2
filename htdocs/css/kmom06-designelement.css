@@ -5635,6 +5635,8 @@ figure.figure.right {
 }
 .figure {
   border-style: ridge;
+  border-width: 3px;
+  border-color: #C0C0C0;
 }
 .meta-footer {
   clear: both;
