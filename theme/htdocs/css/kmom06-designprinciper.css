@@ -5069,7 +5069,7 @@ hr::after {
   width: 19.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .region-header-col-2 {
   display: inline;
@@ -5077,20 +5077,44 @@ hr::after {
   width: 57.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .region-header-col-1 a {
   text-transform: uppercase;
   text-decoration: none;
-  color: #B9B6C2;
+  color: #fff;
 }
 .region-header-col-2 a {
   text-decoration: none;
-  color: #B9B6C2;
+  color: #fff;
+}
+.region-header-col-2 li {
+  display: block;
+}
+.region-header-col-2 li a {
+  display: block;
+  color: #fff;
+}
+.region-header-col-2 ul li a {
+  position: relative;
+  transition: 0.5s;
+}
+.region-header-col-2 ul:hover li a {
+  transform: scale(1.5);
+  filter: blur(5px);
+}
+.region-header-col-2 ul li a:hover {
+  transform: scale(2);
+  color: #fff;
+  filter: blur(0);
 }
 .region-header-col-2 {
   text-align: center;
   text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
 }
 .region-flash {
   display: inline;
@@ -5271,12 +5295,12 @@ hr::after {
 .region-sidebar-left ul {
   list-style-type: none;
 }
+.region-sidebar-left li {
+  padding-bottom: 10px;
+}
 .region-sidebar-left a {
   text-decoration: none;
   color: #B9B6C2;
-}
-.region-sidebar-left a:hover {
-  background-color: #FFCE8A;
 }
 .region-sidebar-left h4 {
   text-decoration: underline;
@@ -5290,6 +5314,11 @@ hr::after {
   text-decoration: none;
   text-decoration: underline;
   color: #B9B6C2;
+}
+.region-sidebar-left li:hover {
+  transition: padding-left 0.5s ease;
+  padding-left: 1em;
+  color: #fff;
 }
 /* Byline */
 .article {
@@ -5598,24 +5627,6 @@ figure.figure.right {
   font-weight: 400;
   src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v6/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
 }
-@font-face {
-  font-family: 'Hind Guntur';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Hind Guntur Regular'), local('HindGuntur-Regular'), url(https://fonts.gstatic.com/s/hindguntur/v3/wXKvE3UZrok56nvamSuJd_QtvXc.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Hind Guntur';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Hind Guntur SemiBold'), local('HindGuntur-SemiBold'), url(https://fonts.gstatic.com/s/hindguntur/v3/wXKyE3UZrok56nvamSuJd_zymWc0ldg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Hind Guntur';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Hind Guntur Bold'), local('HindGuntur-Bold'), url(https://fonts.gstatic.com/s/hindguntur/v3/wXKyE3UZrok56nvamSuJd_yWmGc0ldg.ttf) format('truetype');
-}
 .meta-footer {
   clear: both;
 }
@@ -5648,4 +5659,13 @@ figure.figure.right {
 .article a,
 .region-sidebar-right a {
   color: #808080;
+}
+.outer-wrap-header {
+  position: relative;
+  background-image: url("../img/ice.jpeg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

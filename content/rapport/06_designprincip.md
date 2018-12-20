@@ -53,7 +53,7 @@ Notar har använt element som "negative space" genom tomrum, symmetri genom lika
 Analys
 -----------------------
 
-Undersökningen av mäklares webbplatser visar att balans är en viktig del av en sida. Det skapar harmoni och lugn. Däremot får det inte bli för balanserat genom att ruta in alla delar för då kan det lätt bli stelt, så som jag upplever Skandiamäklarnas webbplats. Då kan det vara bättre att bryta designreglerna vilket även är ett viktigt element (nr 16) enligt artikeln "Designelement and principles". Lite skämtsamt skulle kan kunna säga att Skandiamäklarna skulle ha "think outside the box" och gjort webbplatsen lite mer intressant genom mindre strikta linjer och former och kanske lite mer djup. 
+Undersökningen av mäklares webbplatser visar att balans är en viktig del av en sida. Det skapar harmoni och lugn. Däremot får det inte bli för balanserat genom att ruta in alla delar för då kan det lätt bli stelt, så som jag upplever Skandiamäklarnas webbplats. Då kan det vara bättre att bryta designreglerna vilket även är ett viktigt element (nr 16) enligt artikeln "Designelement and principles". Lite skämtsamt skulle kan kunna säga att Skandiamäklarna skulle "think outside the box" och gjort webbplatsen lite mer intressant genom mindre strikta linjer och former och kanske lite mer djup. 
 
 
 Referenser
